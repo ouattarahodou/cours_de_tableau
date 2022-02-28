@@ -1,0 +1,35 @@
+h1
+{
+    background-color: rgb(74, 74, 139);
+    color: white;
+    text-align: center;
+}
+tbody tr:nth-child(2n-1)
+{
+    background-color: gainsboro;
+    margin: 222px;
+}
+tbody tr:hover
+{
+    background-color: blue;
+    color: cornsilk;
+    
+}
+td, th 
+{
+    border: 1px solid black;
+}
+tbody tr td:nth-child(3)::after
+{
+    content: " 0622787297";
+    border: 1px solid black;
+}
+th:nth-child(3)::after
+{
+    content: " TELEPHONE";
+    border: 1px solid black;
+}
+table
+{
+    margin: 0 auto;
+}
